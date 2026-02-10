@@ -36,4 +36,40 @@ while my_prueba <20:
     my_prueba +=2
     if my_prueba ==15:#esto no se cumple porque nunca va apareces el 15 con +2
         print("Mi condiccion es menor que 20")
+        break #sirve para detener la ejecucion del bucle, si la condiciion se cumple 
     print(f"Mi condiccion {my_prueba} es igual a 15")
+
+# FOR
+"""
+El for se usa para repetir o iterar un listado de elementos
+iteracion= es poder repetir un cojunto de instrucciones, pasos o tareas varias veces 
+While= sirve para hacer que un codigo se repetita varias veces en funcion de una condiccion
+
+"""
+my_list = [34, 45, 62, 52, 30, 30, 17]
+
+for element in my_list:
+    print(element) #significa que todo lo que entre se repite en la lista
+
+my_typle = (35, 1.77, "brasil", " alo", "brandon")
+#este for se ejecuta segun la cantidad 
+for element in my_typle:
+    print(element) # este for sirve para hacer que un codigo se repita varias veces en funcion fe una condicion
+    if element == "alo":
+        break #se usa para detenerlo y nos aslimos completamente de laa condiccion
+#elif my_list == 1: NO SE UTILIZA CON EL FOR
+   # print("Element valor 2")
+else: #el else cuando se rompe el bucle no se muestra
+    print("El bucle for para mi typle ha finalizado")
+
+for element in my_direct:
+    print(element)
+    if element =="edad":
+    continue #esto hace que la ejecucion en ese punto,se vuelva bucle con el primero
+    #el continue no es buena idea porque para la ejecuccion
+    print("se ejecuta")
+
+else: 
+    print("El bucle")
+
+    
